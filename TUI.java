@@ -83,6 +83,36 @@ public class TUI {
         System.out.println("<THE END>");
     }
 
+    public void displayWinner (int player) {
+        System.out.println("* * * ** * * * ** * * * **");
+        System.out.println(" *     Player " + player + " WINS !!!!");
+        System.out.println("* * * ** ** * ** * * * * *");
+    }
+
+    public void displayTie () {
+        System.out.println("======================== >   ...<it's a tie!>");
+        System.out.println("                    =");
+        System.out.println("                =");
+        System.out.println("             =");
+        System.out.println("          =");
+        System.out.println("      =");
+        System.out.println("   =");
+        System.out.println("=");
+        System.out.println("v");
+        System.out.println("^");
+        System.out.println("i");
+        System.out.println("t");
+        System.out.println("''");
+        System.out.println("s");
+        System.out.println("");
+        System.out.println("a");
+        System.out.println("");
+        System.out.println("t");
+        System.out.println("i");
+        System.out.println("e");
+        System.out.println("v");
+    }
+
     //** Test functions ** */
     public void runGame() {
         welcome();
