@@ -1,8 +1,10 @@
 // *** Copyright © 2019 Alpha Kilimanjaro. All rights reserved.
 
+package DiceTui;
+
 import java.util.Scanner;
 
-class TUI {
+public class TUI {
     private int die1, die2;
     private int roll = 1;
     private Scanner input;
