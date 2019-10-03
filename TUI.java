@@ -64,6 +64,16 @@ public class TUI {
         System.out.println();
     }
 
+    public void showPoints(int player, int points) {
+        System.out.println("Player " + player + " has " + points + " points.");
+    }
+
+    public void showPointsToZero(int player) {
+        System.out.println("===================<DRAIN PIPE> = = =  =   = > ZERO!");
+        System.out.println();
+        showPoints(player, 0);
+    }
+
     public boolean requestRoll(int player) {
         System.out.println("Roll dice, player " + player + "..... <press ENTER>");
         String in = input.nextLine();
