@@ -1,5 +1,6 @@
 // *** Copyright © 2019 Alpha Kilimanjaro. All rights reserved.
 
+package DiceTui;
 import java.util.Scanner;
 
 class TUI {
